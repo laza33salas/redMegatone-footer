@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
 /*font color*/
 .secondary{
     color: #666666;
@@ -23,16 +27,20 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 3px;
     width: 120px;
-    height: 34px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
+img{
+    margin-top: 15px;
+}
+
 .inputSuscribite{
-    width: 200px;
-    height: 30px;
+    width: 300px;
+    height: 40px;
     margin-right: 5px;
 }
 
@@ -66,13 +74,16 @@
 
 .contenedorCategorias{
     display: flex;
+    width: 100%;
+    border-top: #d8d8d8 1px solid;
+    border-bottom: #d8d8d8 1px solid;;
     background-color: #F4F4F4;
     justify-content: space-around;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 20px;
    
-    height: 400px;
+    min-height: 400px;
 }
 
 .itemLista{
@@ -81,6 +92,9 @@
     text-decoration: none;
 }
 
+.mailto{
+    text-decoration: none;
+}
 .hoverFooter:hover{
 color: white;
 }
@@ -88,3 +102,89 @@ color: white;
 .hoverSus:hover{
     background-color: #666666;
 }
+
+.color{
+    background-color: #F4F4F4!important;
+}
+.soloDesktop{
+    margin-top: 20px;
+}
+
+.ventasCorporativas{
+    width: 200px;
+    height: 40px;
+    background-color: #E6460D;
+    border-radius: 3px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 18px;
+    color: white;
+}
+
+.bordercss{
+    border-top: #e1e1e1 solid 0.5px;
+    border-bottom: #e1e1e1 solid 0.5px;
+}
+@media (max-width: 1050px) {
+    .contenedorContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        text-align: center;
+    }
+    .inputSuscribite{
+        width: 350px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .venta{
+        font-size: 25px;
+    }
+
+    .secondary{
+        font-size: 20px;
+    }
+
+    .logo{
+        
+        width: 25px;
+        height: 15px;
+    }
+    
+    #divSubFooter_1{
+        display: none;
+    }
+
+    .contenedorCategorias{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soloDesktop{
+        margin-top: 40px;
+        font-size: 20px;
+        
+    }
+  .contenedorRedesSociales{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1050px) {
+   #accordionFlushExample{
+    display: none !important;
+   }
+  
+}
+
