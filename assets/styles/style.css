@@ -36,6 +36,7 @@
 
 img{
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 .inputSuscribite{
@@ -125,8 +126,8 @@ color: white;
 }
 
 .bordercss{
-    border-top: #e1e1e1 solid 0.5px;
-    border-bottom: #e1e1e1 solid 0.5px;
+    border-top: #d8d8d8 1px solid;
+    border-bottom: #d8d8d8 1px solid;;
 }
 @media (max-width: 1050px) {
     .contenedorContacto{
